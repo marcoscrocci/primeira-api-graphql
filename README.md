@@ -30,6 +30,8 @@ npm un graphql
 npm i graphql class-validator type-graphql
 npm i reflect-metadata
 
+Site: https://typegraphql.com/
+
 
 # Usar o projeto no Docker
 ### Gerar a imagem a partir do Dockerfile e consultar:
