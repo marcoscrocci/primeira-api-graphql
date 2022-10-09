@@ -21,6 +21,16 @@ npm i graphql apollo-server
 Executar o serviço:
 npm run dev:simple
 
+## Instalar o Typed GraphQL
+npm i graphql class-validator type-graphql
+
+Obs.: No momento do vídeo, o type-graphql era incompatível com a versão do "graphql": "^16.6.0", então é necessário desinstalar e instalar uma versão diferente:
+
+npm un graphql
+npm i graphql class-validator type-graphql
+npm i reflect-metadata
+
+
 # Usar o projeto no Docker
 ### Gerar a imagem a partir do Dockerfile e consultar:
 

@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon -e js,ts,graphql simple-server.ts",
+    "start": "nodemon -e js,ts,graphql src/server.ts",
+    "start:simple": "nodemon -e js,ts,graphql simple-server.ts",
+    "dev": "tsnd --respawn --transpile-only src/server.ts",
     "dev:simple": "tsnd --respawn --transpile-only simple-server.ts"
   },
   "keywords": [],
@@ -17,6 +19,9 @@
   },
   "dependencies": {
     "apollo-server": "^3.10.3",
-    "graphql": "^16.6.0"
+    "class-validator": "^0.13.2",
+    "graphql": "^15.8.0",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.1.1"
   }
 }
