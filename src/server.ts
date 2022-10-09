@@ -1,6 +1,6 @@
+import "reflect-metadata"; // Deve estar no topo do arquivo na primeira linha
 import { AppointmentsResolver } from './resolvers/appointments-resolver';
 import { ApolloServer } from "apollo-server";
-import "reflect-metadata";
 import { buildSchema } from "type-graphql";
 import path from 'node:path';
 
